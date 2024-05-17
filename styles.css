@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*Import designs.css file*/
+@import url("designs.css");
+/*DESKTOP AND MOBILE QUERIES*/
+
+
+/*---------------------*/
+/* Mobile media queries*/
+
+/* HOME PAGE MOBILE QUERIES*/
+/*-------------------------*/
+@media only screen and (max-width: 1010px)
+{
+    h2
+    {
+        display: none;
+    }
+
+    #img1
+    {
+        width: 100%;
+    }
+
+    div#divider1
+    {
+        display: none;
+    }
+
+    div.solutions
+    {
+        background-color:gainsboro;
+    }
+
+    ul.service
+    {
+        margin: 25;
+    }
+}
+/* HOME PAGE MOBILE QUERIES*/
+/*-------------------------*/
+
+
+
+
+@media only screen and (max-width: 1132px)
+{
+    /* ABOUT ME MEDIQ QUERIES */
+    /*------------------------*/
+    /* Hide the grey block about me for mobile versions.*/
+    div#block1, div#block1 p
+    {
+        display: none;
+    }
+
+    p#block2
+    {
+        border-style: solid;
+        border-width: 1px;
+        background-color: gainsboro;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 75px;
+    }
+    /* END OF ABOUT ME MEDIQ QUERIES */
+    /*-------------------------------*/
+}
+/*ABOUT ME 2ND MOBILEE QUERY*/
+@media only screen and (max-width: 600px)
+{
+    div#block2
+    {
+        font-size: smaller;
+    }
+}
+/* RESUME PAGE MOBILE MEDIA QUERIES */
+/*----------------------------------*/
+@media only screen and (max-width: 900px)
+{
+    footer.resume
+    {
+        position: relative;
+        margin-top:600px;
+        height: 10rem;
+        background-color: gainsboro;
+    }
+    ul.resume
+    {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+    }
+
+    aside
+    {
+        display: flex;
+    }
+    ul.contact, ul.social
+    {
+        display: none;
+    }
+    ul.resume a
+    {
+        margin-top: -20px;
+    }
+    /* END OF RESUME PAGE MEDIQ QUERIES */
+}
+/* End of mobile media queries*/
+/*----------------------------*/
+
+
+
+
+/*-----------------------------*/
+/* Desktop/tablet media queries*/
+@media only screen and (min-width: 1142px)
+{
+
+}
+
+
+/* RESUME PAGE DESKTOP/TABLET MEDIA QUERY*/
+/*---------------------------------------*/
+@media only screen and (min-width: 901px)
+
+/* RESUME PAGE DESKTOP/TABLET QUERY*/
+{
+    aside
+    {
+        margin-top: -775;
+    }
+
+    ul.resume
+    {
+        display: flex;
+        float: right;
+        margin-top: -830px;
+    }
+    ul.contacts
+    {
+        position: absolute;
+    }
+
+    
+}
